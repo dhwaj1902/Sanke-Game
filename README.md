@@ -9,3 +9,4 @@ This Game is made on Canvas using JavaScript.
   * Hard
 * Then game will start and your **Steps** and **Score** will be displayed on right side of screen.
 * When game over you have to click **Restart** button to restart the game.
+## [Click Here](https://dhwaj1902.github.io/Snake-Game/) to Play.
