@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Iceland|Monoton|Pacifico|Press+Start+2P|Vampiro+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="title.css">
+    <title>Snake Game</title>
+</head>
+<body class="back text-white">
+    <div class="container">
+        <div class="row">
+        <div class="col-6 text-center">
+            <div class="level">Choose the Level</div>
+            <button class="btn btn-md btn-success m-3" id="1" onclick="start(100)">EASY</button>
+            <button class="btn btn-md btn-warning m-3 " id="2" onclick="start(75)">MEDIUM</button>
+            <button class="btn btn-md btn-danger m-3" id="3" onclick="start(50)">HARD</button>
+            
+            <!-- <div class="verticaltext">Snake Game</div> -->
+            <canvas id="gameCanvas" width="608" height="608" ></canvas>
+        </div>
+        <div class="col-6">
+            <div class="d-flex flex-column align-items-end justify-content-center title mt-5">
+                <p><a>SNAKE</a></p>
+            </div>
+            <div class="d-flex flex-column align-items-end justify-content-center title">
+                <p><a>GAME</a></p>
+            </div>
+        <div class="d-flex flex-column align-items-end justify-content-end h-50">
+                <div id="step"></div>
+                <div id="score"></div>
+                <p id="gameOver"></p>
+            </div>
+        </div>
+        </div>
+            
+           
+    </div>  
+    </div>
+    
+    <script src="snake2.js"></script>
+    
+</body>
+</html>

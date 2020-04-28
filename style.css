@@ -1,0 +1,56 @@
+body{
+  overflow: hidden;
+}
+  #score {
+    /* text-align: center; */
+    font-size: 40px;
+    font-family: 'Antic Slab', serif;
+    user-select: none;
+  }
+  .back{
+    color:white;
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(
+                       rgba(20,20,20, .5), 
+                       rgba(20,20,20, .5)),
+                       url("images/background2.jpg"); */
+    background-image: url("images/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+  }
+  .vericaltext{
+    width:1px;
+    color: white;
+    word-wrap: break-word;
+    white-space:pre-wrap;
+    writing-mode: vertical-rl;
+  text-orientation: upright; 
+ }
+ #step{
+   font-size: 25px;
+   user-select: none;
+ }
+ #gameOver{
+   font-size: 32px  ;
+   color: red;
+   user-select: none;
+ }
+ .level{
+  font-size: 32px  ;
+  color: rgb(37, 37, 37);
+  font-family: 'Righteous', cursive;
+  user-select: none;
+ }
+ .title{
+   color: rgb(56, 54, 54);
+  /* font-size: 25px; */
+  /* font-family: 'Dancing Script', Georgia, Times, serif; */
+  font-size: 59px;
+  font-weight: bold;
+  line-height: 60px;
+  user-select: none;
+ }
